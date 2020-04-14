@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Roll the dice!</title>
+    <link rel="icon" href="images/dice-icon2.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+    <div class="container-fluid">
+
+      <div class="row-score">
+        <div class="column-score score-left">
+          <img class="cup-img" src="images/cup.png" alt="">
+        </div>
+        <div class="column-score score-mid">
+          <h1>Roll the dice!</h1>
+        </div>
+        <div class="column-score score-right">
+          <img class="cup-img" src="images/cup.png" alt="">
+        </div>
+      </div>
+
+      <audio id="audio">
+        <source src="sounds/roll.mp3" type="audio/ogg">
+      </audio>
+
+      <button class="btn btn-dark" onclick="myFunction()" type="button" name="button">ROLL</button>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container-dice">
+            <h2>Player 1</h2>
+            <img class="dice-img dice-img-left" src="images/dice6.png" alt="dice1">
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <h2>Player 2</h2>
+          <img class="dice-img dice-img-right" src="images/dice6.png" alt="dice2">
+        </div>
+      </div>
+    </div>
+
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
